@@ -21,6 +21,6 @@ export default defineConfig(({ mode }) => {
       },
       
       // 🟡 Tambahkan ini untuk GitHub Pages
-      base: "/unca/",
+      base: "/unca",
     };
 });
