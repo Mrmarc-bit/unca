@@ -18,6 +18,9 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      
+      // 🟡 Tambahkan ini untuk GitHub Pages
+      base: "/unca/",
     };
 });
