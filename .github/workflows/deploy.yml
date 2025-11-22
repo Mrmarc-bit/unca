@@ -16,6 +16,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
       - name: Install and Build
         run: |
           npm install
@@ -24,4 +29,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # Folder hasil build (biasanya 'dist' untuk Vite atau 'build' untuk CRA)
+          branch: gh-pages
+          folder: dist
