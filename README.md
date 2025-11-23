@@ -2,7 +2,7 @@
 
 Platform manajemen acara kampus modern yang dirancang untuk Universitas Nahdlatul Ulama Al Ghazali (UNUGHA). Aplikasi ini memudahkan organisasi mahasiswa untuk mempublikasikan acara dan mahasiswa untuk menemukan serta mendaftar kegiatan kampus.
 
-Dibangun dengan **React**, **Supabase**, dan **Google Gemini AI**.
+Dibangun dengan **React**, **Supabase**.
 
 ## 🌟 Fitur Utama
 
